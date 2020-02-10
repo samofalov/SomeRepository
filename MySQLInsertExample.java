@@ -14,6 +14,7 @@ public class MySQLInsertExample {
 			Properties props = new Properties();
 			FileInputStream in = new FileInputStream("db.properties");
 			
+
 			props.load(in);
 			
 			Connection c = DriverManager.getConnection(
@@ -31,7 +32,7 @@ public class MySQLInsertExample {
 			String sql = "INSERT INTO employees "
 						+"VALUES (1804, ?, ?, ?, ?, 1, NULL, '" + jobTitle + "')";
 			
-
+			// These are my customer changes for review
 			
 			PreparedStatement s = c.prepareStatement(sql);
 
