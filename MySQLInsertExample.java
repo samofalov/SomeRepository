@@ -9,7 +9,7 @@ import java.util.Properties;
 public class MySQLInsertExample {
 
 	public static void main(String[] args) {
-
+		// Diena x - 1
 		try {
 			Properties props = new Properties();
 			FileInputStream in = new FileInputStream("db.properties");
