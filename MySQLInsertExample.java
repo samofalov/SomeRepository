@@ -10,6 +10,8 @@ public class MySQLInsertExample {
 
 	public static void main(String[] args) {
 
+		// Versija diena x
+	
 		try {
 			Properties props = new Properties();
 			FileInputStream in = new FileInputStream("db.properties");
