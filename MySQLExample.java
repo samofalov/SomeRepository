@@ -13,6 +13,8 @@ public class MySQLExample {
 			Properties props = new Properties();
 			FileInputStream in = new FileInputStream("db.properties");
 			
+			// Properties set
+			
 			props.load(in);
 			
 			Connection c = DriverManager.getConnection(
